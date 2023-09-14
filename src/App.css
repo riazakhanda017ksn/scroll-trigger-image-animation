@@ -1,0 +1,84 @@
+.gallery.product-smooth-scroll {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  overflow: hidden;
+  height: 300vh;
+ 
+}
+
+.gallery{
+  background: black;
+}
+
+.Left {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.photos{
+  position: relative;
+}
+
+.photo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.photo img{
+  height: 100vh;
+}
+.intro h1 {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+.intro p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  height: 100vb;
+  background: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9999;
+}
+
+.last-part{
+  display: flex;
+  flex-direction: column;
+  height: 100vb;
+  background: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 999999999999;
+}
+
+.last-part p {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 300;
+}
